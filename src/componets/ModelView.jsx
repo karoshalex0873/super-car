@@ -60,7 +60,7 @@ const ModelView = () => {
   };
 
   return (
-    <div className="relative lg:w-[700px] lg:h-[80vh] p-9 w-[400px] h-[50vh]">
+    <div className="relative lg:w-[700px] lg:h-[80vh] lg:10 p:2 w-[400px] h-[50vh]">
       <div className="absolute inset-0 w-full h-full"></div>
       <div className="w-full h-full animate-lightShade relative">
         {!hideContent && (
