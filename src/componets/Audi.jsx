@@ -9,7 +9,7 @@ Title: Audi R8
 
 import { Html, useGLTF } from '@react-three/drei';
 function Model(props) {
-  const { nodes, materials } = useGLTF('../../public/model/audi.glb');
+  const { nodes, materials } = useGLTF('/model/audi.glb');
   return (
     <group {...props} dispose={null}>
       <group scale={0.00075}>
@@ -760,4 +760,4 @@ function Model(props) {
 }
 export default Model;
 
-useGLTF.preload('../../public/model/audi.glb')
+useGLTF.preload('/model/audi.glb')
